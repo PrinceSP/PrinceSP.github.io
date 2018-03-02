@@ -1,1 +1,1 @@
-# particles.github.io
+# simple particlejs website
