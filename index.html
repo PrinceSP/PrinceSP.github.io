@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <meta charset="utf-8">
-    <meta name="author" content="Prince.S.P">
-    <title>Prince Media | Home</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <a href="index.html"><img src="./img/logo.png" class="logo"></a>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-      </ul>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Particles Website</title>
+  <link rel="stylesheet" href="css/welcome.css">
+</head>
+<body>
+  <div id="particles-js">
+    <div class="btext">
+      <h1>Prince S.P.</h1>
+      <p>Live to Code Another Day</p>
+      <a href="index2.html" class="btn">Get Started</a>
+    </div>
+  </div>
 
-      <div class="welcome">
-        <h1>ARE YOU NEW ON MY WEBSITE?</h1>
-        <a href="welcome.html" class="btn btn1">Subscribe</a>
-        <a href="contact.html" class="btn btn2">Contact</a>
-      </div>
-    </header>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-    <!-- <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</article> -->
-  </body>
+  <script>
+    particlesJS.load('particles-js', 'particles.json',
+    function(){
+      console.log('particles.json loaded...')
+    })
+  </script>
+
+  </script>
+</body>
 </html>
