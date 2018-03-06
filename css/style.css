@@ -1,43 +1,254 @@
-body{
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
+  padding: 0;
 }
 
-.btext{
-  color: #f9f3f4;
-  position: absolute;
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(57, 100, 100, 0.6)),url('../img/bg.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background: rgb(0, 0, 0, 0, 0.5);
+  height: 80px;
+}
+
+.logo {
+  margin: 15px 50px;
+  height: 60px;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  /* border: 1px solid #fff; */
+}
+
+.menu li a:hover {
+  background: #fff;
+  transition: .4s;
+  color: #f48042;
+}
+
+.welcome {
+  position: relative;
   text-align: center;
-  top: 40%;
-  width: 100%;
-  line-height: 0.4em;
+  font-family: sans-serif;
+  color: #fff;
+  top: 160px;
 }
 
-h1 {
-  font-size:50px;
-}
-
-p{
- font-size:30px;
+.welcome h1 {
+  font-size: 42px;
+  margin: 25px;
 }
 
 .btn {
-  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding: 7px 10px;
   text-decoration: none;
-  border: #ccc 1px solid;
-  padding: 10px 15px;
-  border-radius: 8px;
-  line-height: 4em;
+  border: 1px solid #fff;
 }
 
-.btn:hover {
-  color: #b19259;
-  border: #fff 1px solid;
+.btn1 {
+  color: #fff;
 }
 
-#particles-js{
-  background: url('../img/mountain.jpg');
+.btn1:hover {
+  background: #fff;
+  color: #000;
+  transition: .4s
+}
+
+.btn2 {
+  color: #fff;
+}
+
+.btn2:hover {
+  background: #fff;
+  color: #000;
+  transition: .4s
+}
+
+
+/* about page styles */
+.aboutbg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 100, 0.5)),url('../img/aboutbg.jpg');
   background-size: cover;
-  display: flex;
-  height: 100vh;
+  background-position: center;
+}
+
+.box{
+  width: 450px;
+  background: rgba(152, 112, 170, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+
+/* services styles */
+
+.servicesbg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(57, 100, 100, 0.6)),url('../img/servicesbg.jpeg');
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* aside sidebar for get quote */
+aside#sidebar .quote input, aside#sidebar .quote  textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+article#main-col { /*setting the get a quote alignment*/
+  float: left;
+  width: 65%;
+}
+
+ul#services li { /*setting border for the article*/
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+  opacity: .5;
+}
+
+.page-title { /*setting h1 style*/
+  color: #ccc;
+  padding-bottom: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 70px;
+  overflow: hidden;
+}
+
+.dark {
+  padding: 20px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+
+/* contact page styles */
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.formc {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
 }
