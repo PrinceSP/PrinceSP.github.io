@@ -260,9 +260,9 @@ button:hover {
 }
 
 /* Add padding to container elements */
-.formc {
+/* .formc {
   padding: 16px;
-}
+} */
 
 /* Clear floats */
 .clearfix::after {
