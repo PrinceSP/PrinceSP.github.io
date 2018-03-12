@@ -16,12 +16,13 @@ header {
 }
 
 .logo {
+  float: left;
   margin: 15px 50px;
   height: 60px;
 }
 
 .menu {
-  float: right;
+  float: left;
   list-style: none;
   margin: 20px;
 }
@@ -37,10 +38,34 @@ header {
   padding: 5px 10px;
   font-family: sans-serif;
   letter-spacing: 2px;
-  /* border: 1px solid #fff; */
 }
 
 .menu li a:hover {
+  background: #fff;
+  transition: .4s;
+  color: #f48042;
+}
+
+.menu2 {
+  float: right;
+  list-style: none;
+  margin: 20px;
+}
+
+.menu2 li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.menu2 li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+.menu2 li a:hover {
   background: #fff;
   transition: .4s;
   color: #f48042;
@@ -158,7 +183,7 @@ ul#services li { /*setting border for the article*/
   padding-bottom: 15px;
 }
 
-.container {
+.container { /*setting article border*/
   width: 80%;
   margin: 70px;
   overflow: hidden;
@@ -246,8 +271,8 @@ button:hover {
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
+/* Media Queries */
+@media screen and (max-width: 768px) {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
