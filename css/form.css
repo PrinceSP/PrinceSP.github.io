@@ -6,8 +6,15 @@ body {
   background-size: cover;
 }
 
-/* getstarted style */
-form a {
+.box1 a {
+   text-decoration: none;
+   background-color: none;
+}
+.box2 a {
+   text-decoration: none;
+   background-color: none;
+}
+.box3 a {
    text-decoration: none;
    background-color: none;
 }
@@ -149,6 +156,80 @@ form a {
   font-size: 12px;
 }
 .box2 input[type="submit"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/* signup styles */
+.box3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+
+.box3 h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  color: lightblue;
+  text-align: center;
+}
+
+.box3 p  {
+  color: antiquewhite;
+}
+
+.box3 p a {
+  color: darkgoldenrod;
+}
+
+.box3 .signupbox {
+  position: relative;
+}
+
+.box3 .signupbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.box3 .signupbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+.box3 .signupbox input:focus ~ label, .box3 .signupbox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+.box3 input[type="submit"] {
   background: transparent;
   border: none;
   outline: none;
