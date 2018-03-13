@@ -6,6 +6,13 @@ body {
   background-size: cover;
 }
 
+.icon {
+  float: left;
+  margin: 15px 10px;
+  height: 60px;
+}
+
+
 .box1 a {
    text-decoration: none;
    background-color: none;
