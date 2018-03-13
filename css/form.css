@@ -8,7 +8,25 @@ body {
 
 .icon {
   float: left;
-  margin: 15px 10px;
+  text-decoration: none;
+  background-color: none;
+  margin: 15px 50px;
+  height: 60px;
+}
+
+.icon2 {
+  float: left;
+  text-decoration: none;
+  background-color: none;
+  margin: 15px 50px;
+  height: 60px;
+}
+
+.icon3 {
+  float: left;
+  text-decoration: none;
+  background-color: none;
+  margin: 15px 50px;
   height: 60px;
 }
 
