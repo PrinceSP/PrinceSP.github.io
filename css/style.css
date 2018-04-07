@@ -206,7 +206,7 @@ ul#services li { /*setting border for the article*/
   color: #ffffff;
 }
 
-@media screen and (max-width:320px) {
+@media (max-width:320px) {
   .container {
     width: 30px;
   }
