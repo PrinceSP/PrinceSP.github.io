@@ -205,19 +205,3 @@ ul#services li { /*setting border for the article*/
   padding-right: 20px;
   color: #ffffff;
 }
-
-/* media queries */
-
-@media (max-width: 320px;) {
-  header .navbar,
-  header .navbar li,
-  header .navbar li a {
-    float:none;
-    text-align: center;
-    width: 100%;
-  }
-
-  header{
-    padding-bottom: 20px;
-  }
-}
