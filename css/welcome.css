@@ -50,6 +50,7 @@ p{
   }
 
   #particles-js {
+    background-position: center;
     display: flex;
     justify-content: space-around;
   }
