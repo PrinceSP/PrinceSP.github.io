@@ -43,11 +43,14 @@ p{
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   .btext {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
 
+  #particles-js {
+    display: flex;
+  }
 
 }
