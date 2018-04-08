@@ -205,18 +205,3 @@ ul#services li { /*setting border for the article*/
   padding-right: 20px;
   color: #ffffff;
 }
-
-@media (min-width: 300px) {
-  .menu,
-  .menu li,
-  .menu li a {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
-  }
-
-  .welcome {
-    text-align: center;
-    font-size: 30em;
-  }
-
-}
