@@ -61,7 +61,7 @@ header {
   margin: 20px;
 }
 
-/* .menu2 li {
+.menu2 li {
   display: inline-block;
   margin: 10px 5px;
 }
@@ -78,7 +78,7 @@ header {
   background: #fff;
   transition: .4s;
   color: #f48042;
-} */
+}
 
 .welcome {
   position: relative;
