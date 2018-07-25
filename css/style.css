@@ -91,6 +91,7 @@ header {
 .welcome h1 {
   font-size: 42px;
   margin: 25px;
+  max-width: 400px;
 }
 
 .btn {
