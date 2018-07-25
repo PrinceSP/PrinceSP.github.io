@@ -86,12 +86,14 @@ header {
   font-family: sans-serif;
   color: #fff;
   top: 160px;
+  max-width: 500px;
+  
 }
 
 .welcome h1 {
   font-size: 42px;
   margin: 25px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .btn {
